@@ -1,0 +1,72 @@
+#phone{
+    text-align: center;
+    background-color: #44659A;
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 20px;
+    color: #fff;
+    padding: 5px;
+    border: 1px solid #44659A;
+    border-radius: 5px;
+}
+#contact{
+    margin-right: 50px;
+}
+@media screen and (max-width: 767px) {
+      #phone {
+        height: auto;
+          width: auto;
+      }
+    }
+#name,#email,#subject,#msg{
+    border: none;
+    border-bottom: 1px solid #999;
+}
+#phone:hover{
+    background-color: #fff;
+    color: #44659A;
+}
+#nav{
+    background-color: #44659A;
+    border:none;
+}
+#nav a{
+    color: #fff;
+}
+@media screen and (max-width: 767px) {
+      #map {
+        height: auto;
+      }
+    }
+.nav img{
+    width: 30px;
+}
+#socail{
+    background-color: #44659B; 
+    color: #fff;
+}
+.socail{
+    padding-top: 20px;
+}
+#map{
+    height: 400px;
+    border: none;
+    width: 100%;
+    padding: 0;
+}
+#socail a{
+    color: #fff;
+    text-decoration: none;
+}
+#socail a:hover{
+    color: #44659B;
+    background-color: #fff;
+}
+.icons{
+    text-align: center;
+}
+.icons a{
+   padding: 30px 10px 10px 10px;
+    border: 1px solid black;
+    border-radius: 150%;
+}
