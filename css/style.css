@@ -54,19 +54,74 @@
     width: 100%;
     padding: 0;
 }
-#socail a{
+#socail p a{
     color: #fff;
     text-decoration: none;
 }
-#socail a:hover{
+#socail p a:hover{
     color: #44659B;
     background-color: #fff;
 }
 .icons{
     text-align: center;
 }
-.icons a{
-   padding: 30px 10px 10px 10px;
+.icons .fa{
+   padding: 10px;
     border: 1px solid black;
     border-radius: 150%;
+    margin-left: 30px;
+    color: #fff;
+}
+.nav li{
+    height: 80px;
+}
+.nav li a{
+    padding-bottom: 28px;
+    padding-top: 30px;
+    margin-left: 2px;
+}
+#myNavbar ul li a:hover{
+    color: #44659B;
+    background-color: #fff;
+    border-top: 1px solid #44659B;
+}
+.icons .fa:hover{
+    background-color: #fff;
+    color: #44659B;
+    border: none;
+}
+.icons .fa-facebook{
+    padding: 10px 15px
+}
+.slider-wrapper { 
+	width: 100%; 
+}
+.slider-wrapper img{
+    width: 100%;
+    height: 400px;
+}
+.btn-group{
+    width: 50%
+}
+.btn{
+    width: 150px
+}
+.btn-group a{
+    border: 1px solid #999;
+    background-color: #ddd;
+    color:black; 
+}
+.btn-group a:hover{
+    background-color: #44659A;
+    color: #fff;
+}
+.btn-group a:first-child{
+    width: auto;
+}
+.media-right img{
+    height: 220px;
+}
+.media-right img:hover{
+    background-color: black;
+    border: 4px solid #44659A;
 }
